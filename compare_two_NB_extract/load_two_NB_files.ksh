@@ -7,13 +7,16 @@ TMP_NB_FILE=/tmp/NB.csv
 
 # this script is to be run after a weekely load has been done
 # it will need to chose different files if live
-eval `ls -lrt /SRGP/data/upload/NationBuilder/nationbuilder-people-export* | tail -3 | head -2 | awk '{print "NB_file_and_path_"FNR"="$9}'`
+# eval `ls -lrt /SRGP/data/upload/NationBuilder/nationbuilder-people-export* | tail -3 | head -2 | awk '{print "NB_file_and_path_"FNR"="$9}'`
 #
-echo $NB_file_and_path_1;
-echo $NB_file_and_path_2;
+# echo $NB_file_and_path_1;
+# echo $NB_file_and_path_2;
 #
-NB_file_and_path_1="/SRGP/data/upload/NationBuilder/nationbuilder-people-export-70-2015-03-08.csv"
-NB_file_and_path_2="/SRGP/data/upload/NationBuilder/nationbuilder-people-export-71-2015-03-15.csv"
+# NB_file_and_path_1="/SRGP/data/upload/NationBuilder/nationbuilder-people-export-70-2015-03-08.csv"
+# NB_file_and_path_2="/SRGP/data/upload/NationBuilder/nationbuilder-people-export-71-2015-03-15.csv"
+#
+NB_file_and_path_1=$1
+NB_file_and_path_2=$2
 #
 echo $NB_file_and_path_1;
 echo $NB_file_and_path_2;
