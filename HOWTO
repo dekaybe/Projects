@@ -9,6 +9,10 @@ git add HOWTO
 git commit -m "Added HOWTO"
 git-push --all git@github.com:dekaybe/Projects.git
 
+# Add a directory
+git add -f *
+git commit -a -m "Added voter"
+
 # Commit updates
-git commit -a  -m "Amended HOWTO twice"
+git commit -a -m "Amended HOWTO twice"
 
