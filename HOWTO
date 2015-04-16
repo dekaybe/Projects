@@ -11,5 +11,5 @@ git commit -m "Added HOWTO"
 git-push --all git@github.com:dekaybe/Projects.git
 
 # Commit updates
-git commit -m "Amended HOWTO"
+git commit -a  -m "Amended HOWTO twice"
 
