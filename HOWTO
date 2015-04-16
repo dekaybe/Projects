@@ -5,4 +5,8 @@ $ git rm $(git ls-files --deleted)
 $ git commit -m "Removed a civi data file"
 $ git-push --all git@github.com:dekaybe/Projects.git
 
+# Add a file
+git add HOWTO
+git commit -m "Added HOWTO"
+git-push --all git@github.com:dekaybe/Projects.git
 
