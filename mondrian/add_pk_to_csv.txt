@@ -1,0 +1,2 @@
+cat /tmp/S_postcodes.csv | awk '{ print FNR "," $0 }' > /tmp/S_postcodes_FNR.csv
+
