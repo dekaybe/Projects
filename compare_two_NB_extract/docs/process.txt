@@ -1,0 +1,2 @@
+/SRGP/Projects/compare_two_NB_extract/load_two_NB_files.ksh
+
