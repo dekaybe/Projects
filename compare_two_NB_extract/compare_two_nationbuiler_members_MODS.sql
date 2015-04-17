@@ -2,9 +2,9 @@
 
 delimiter //
 
-DROP PROCEDURE IF EXISTS compare_two_nationbuiler_members_export;
+DROP PROCEDURE IF EXISTS nb_updates_MODS;
 
-CREATE PROCEDURE compare_two_nationbuiler_members_export ()
+CREATE PROCEDURE nb_updates_MODS()
 BEGIN
 --
 DECLARE done                              INTEGER DEFAULT 0; -- Used to break out of loops
@@ -106,5 +106,5 @@ END//
 --
 delimiter ;
 --
-CALL compare_two_nationbuiler_members_export();
+CALL nb_updates_MODS();
 --
