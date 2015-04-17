@@ -1,5 +1,0 @@
-ps -eLf | grep java
-/usr/local/java/jdk1.7.0_75/bin/jstack <TOMCAT PID>
-free -m
-ps --sort -rss -eo rss,pid,command | head
-
